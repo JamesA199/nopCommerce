@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="16" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-20T21:31:12 MDT" name="RegressionSuite1" finished-at="2024-04-20T21:43:36 MDT" duration-ms="744663">
+    <groups>
+      <group name="Regression">
+        <method signature="Login_TC1.LoginPage_Test()[pri:0, instance:com.eCommStore.testCases.Login_TC1@24269709]" name="LoginPage_Test" class="com.eCommStore.testCases.Login_TC1"/>
+        <method signature="Login_TC2.LoginPage_Test()[pri:0, instance:com.eCommStore.testCases.Login_TC2@2925bf5b]" name="LoginPage_Test" class="com.eCommStore.testCases.Login_TC2"/>
+        <method signature="addNewCustNotUseSrchBtn_TC3.addNewCustNotUseSrchBtn_Test()[pri:0, instance:com.eCommStore.testCases.addNewCustNotUseSrchBtn_TC3@710f4dc7]" name="addNewCustNotUseSrchBtn_Test" class="com.eCommStore.testCases.addNewCustNotUseSrchBtn_TC3"/>
+        <method signature="addNewCustUseSrchBtn_TC4.addNewCustUseSrchBtn_Test()[pri:0, instance:com.eCommStore.testCases.addNewCustUseSrchBtn_TC4@1ff4931d]" name="addNewCustUseSrchBtn_Test" class="com.eCommStore.testCases.addNewCustUseSrchBtn_TC4"/>
+        <method signature="addNewCustandEdit_TC5.addNewCustandEdit_Test()[pri:0, instance:com.eCommStore.testCases.addNewCustandEdit_TC5@65e98b1c]" name="addNewCustandEdit_Test" class="com.eCommStore.testCases.addNewCustandEdit_TC5"/>
+        <method signature="downloadPrdCatalog_TC6.downloadPrdCatalog_Test()[pri:0, instance:com.eCommStore.testCases.downloadPrdCatalog_TC6@61322f9d]" name="downloadPrdCatalog_Test" class="com.eCommStore.testCases.downloadPrdCatalog_TC6"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Login_TC1.LoginPage_Test()[pri:0, instance:com.eCommStore.testCases.Login_TC1@24269709]" name="LoginPage_Test" class="com.eCommStore.testCases.Login_TC1"/>
+        <method signature="Login_TC2.LoginPage_Test()[pri:0, instance:com.eCommStore.testCases.Login_TC2@2925bf5b]" name="LoginPage_Test" class="com.eCommStore.testCases.Login_TC2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-04-20T21:31:12 MDT" name="eCommStore Test" finished-at="2024-04-20T21:43:36 MDT" duration-ms="744663">
+      <class name="com.eCommStore.testCases.addNewCustUseSrchBtn_TC4">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eCommStore.testCases.addNewCustUseSrchBtn_TC4@1ff4931d]" started-at="2024-04-20T21:35:07 MDT" name="setup" finished-at="2024-04-20T21:35:08 MDT" duration-ms="1286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustUseSrchBtn_Test()[pri:0, instance:com.eCommStore.testCases.addNewCustUseSrchBtn_TC4@1ff4931d]" started-at="2024-04-20T21:35:08 MDT" name="addNewCustUseSrchBtn_Test" finished-at="2024-04-20T21:38:00 MDT" duration-ms="171128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustUseSrchBtn_Test -->
+        <test-method is-config="true" signature="tearDown(java.lang.String)[pri:0, instance:com.eCommStore.testCases.addNewCustUseSrchBtn_TC4@1ff4931d]" started-at="2024-04-20T21:38:00 MDT" name="tearDown" finished-at="2024-04-20T21:38:00 MDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eCommStore.testCases.addNewCustUseSrchBtn_TC4 -->
+      <class name="com.eCommStore.testCases.downloadPrdCatalog_TC6">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eCommStore.testCases.downloadPrdCatalog_TC6@61322f9d]" started-at="2024-04-20T21:41:19 MDT" name="setup" finished-at="2024-04-20T21:41:21 MDT" duration-ms="1470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="downloadPrdCatalog_Test()[pri:0, instance:com.eCommStore.testCases.downloadPrdCatalog_TC6@61322f9d]" started-at="2024-04-20T21:41:21 MDT" name="downloadPrdCatalog_Test" finished-at="2024-04-20T21:43:36 MDT" duration-ms="135486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadPrdCatalog_Test -->
+        <test-method is-config="true" signature="tearDown(java.lang.String)[pri:0, instance:com.eCommStore.testCases.downloadPrdCatalog_TC6@61322f9d]" started-at="2024-04-20T21:43:36 MDT" name="tearDown" finished-at="2024-04-20T21:43:36 MDT" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eCommStore.testCases.downloadPrdCatalog_TC6 -->
+      <class name="com.eCommStore.testCases.addNewCustandEdit_TC5">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eCommStore.testCases.addNewCustandEdit_TC5@65e98b1c]" started-at="2024-04-20T21:38:00 MDT" name="setup" finished-at="2024-04-20T21:38:01 MDT" duration-ms="1531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustandEdit_Test()[pri:0, instance:com.eCommStore.testCases.addNewCustandEdit_TC5@65e98b1c]" started-at="2024-04-20T21:38:01 MDT" name="addNewCustandEdit_Test" finished-at="2024-04-20T21:41:19 MDT" duration-ms="198127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustandEdit_Test -->
+        <test-method is-config="true" signature="tearDown(java.lang.String)[pri:0, instance:com.eCommStore.testCases.addNewCustandEdit_TC5@65e98b1c]" started-at="2024-04-20T21:41:19 MDT" name="tearDown" finished-at="2024-04-20T21:41:19 MDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eCommStore.testCases.addNewCustandEdit_TC5 -->
+      <class name="com.eCommStore.testCases.addNewCustNotUseSrchBtn_TC3">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eCommStore.testCases.addNewCustNotUseSrchBtn_TC3@710f4dc7]" started-at="2024-04-20T21:32:19 MDT" name="setup" finished-at="2024-04-20T21:32:20 MDT" duration-ms="1274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustNotUseSrchBtn_Test()[pri:0, instance:com.eCommStore.testCases.addNewCustNotUseSrchBtn_TC3@710f4dc7]" started-at="2024-04-20T21:32:20 MDT" name="addNewCustNotUseSrchBtn_Test" finished-at="2024-04-20T21:35:07 MDT" duration-ms="166768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustNotUseSrchBtn_Test -->
+        <test-method is-config="true" signature="tearDown(java.lang.String)[pri:0, instance:com.eCommStore.testCases.addNewCustNotUseSrchBtn_TC3@710f4dc7]" started-at="2024-04-20T21:35:07 MDT" name="tearDown" finished-at="2024-04-20T21:35:07 MDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eCommStore.testCases.addNewCustNotUseSrchBtn_TC3 -->
+      <class name="com.eCommStore.testCases.Login_TC1">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.eCommStore.testCases.Login_TC1@24269709]" started-at="2024-04-20T21:31:12 MDT" name="loadConfig" finished-at="2024-04-20T21:31:12 MDT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eCommStore.testCases.Login_TC1@24269709]" started-at="2024-04-20T21:31:12 MDT" name="setup" finished-at="2024-04-20T21:31:14 MDT" duration-ms="2185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginPage_Test()[pri:0, instance:com.eCommStore.testCases.Login_TC1@24269709]" started-at="2024-04-20T21:31:14 MDT" name="LoginPage_Test" finished-at="2024-04-20T21:32:16 MDT" duration-ms="62550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage_Test -->
+        <test-method is-config="true" signature="tearDown(java.lang.String)[pri:0, instance:com.eCommStore.testCases.Login_TC1@24269709]" started-at="2024-04-20T21:32:16 MDT" name="tearDown" finished-at="2024-04-20T21:32:17 MDT" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:com.eCommStore.testCases.Login_TC1@24269709]" started-at="2024-04-20T21:43:37 MDT" name="aftersuite" finished-at="2024-04-20T21:43:37 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.eCommStore.testCases.Login_TC1 -->
+      <class name="com.eCommStore.testCases.Login_TC2">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.eCommStore.testCases.Login_TC2@2925bf5b]" started-at="2024-04-20T21:32:17 MDT" name="setup" finished-at="2024-04-20T21:32:18 MDT" duration-ms="1482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginPage_Test()[pri:0, instance:com.eCommStore.testCases.Login_TC2@2925bf5b]" started-at="2024-04-20T21:32:18 MDT" name="LoginPage_Test" finished-at="2024-04-20T21:32:19 MDT" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage_Test -->
+        <test-method is-config="true" signature="tearDown(java.lang.String)[pri:0, instance:com.eCommStore.testCases.Login_TC2@2925bf5b]" started-at="2024-04-20T21:32:19 MDT" name="tearDown" finished-at="2024-04-20T21:32:19 MDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eCommStore.testCases.Login_TC2 -->
+    </test> <!-- eCommStore Test -->
+  </suite> <!-- RegressionSuite1 -->
+</testng-results>

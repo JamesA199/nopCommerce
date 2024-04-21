@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "downloadTests">
+	<listeners>
+		<listener class-name="com.eCommStore.utilities.ExtentReportListener"></listener>
+	</listeners>
+	<test name = "eCommStore Test">
+   	<parameter name="browser" value="chrome" />
+	<groups>
+	<run>
+		<include name="Regression"></include>
+	</run>
+	</groups>   	
+      <classes>	      	
+      		<class name="com.eCommStore.testCases.downloadCatFile_TC7"/>
+	      	<!--class name="com.eCommStore.testCases.downloadPrdCatalog_TC6"/> -->
+	      	<!--class name="com.eCommStore.testCases.GettingStarted"/> -->
+      </classes>
+   </test>
+
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "RegressionSuite1">
+	<listeners>
+		<listener class-name="com.eCommStore.utilities.ExtentReportListener"></listener>
+	</listeners>
+	<test name = "eCommStore Test">
+   	<parameter name="browser" value="chrome" />
+	<groups>
+	<run>
+		<include name="Regression"></include>
+	</run>
+	</groups>   	
+      <classes>
+	      	<class name="com.eCommStore.testCases.Login_TC1"/>
+	      	<class name="com.eCommStore.testCases.Login_TC2"/>
+	      	<class name="com.eCommStore.testCases.addNewCustNotUseSrchBtn_TC3"/>
+	      	<class name="com.eCommStore.testCases.addNewCustUseSrchBtn_TC4"/>
+	      	<class name="com.eCommStore.testCases.addNewCustandEdit_TC5"/>
+	      	<class name="com.eCommStore.testCases.downloadPrdCatalog_TC6"/>
+      </classes>
+   </test>
+
+</suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "SmokeSuite1">
+	<listeners>
+		<listener class-name="com.eCommStore.utilities.Reporting"></listener>
+	</listeners>
+	<test name = "eCommStore Test">
+   	<parameter name="browser" value="firefox" />
+	<groups>
+	<run>
+		<include name="Smoke"></include>
+	</run>
+	</groups>   	
+      <classes>
+	      	<!-- class name="com.eCommStore.TestCases.LandingPage_TC"/> -->
+	      	<class name="com.eCommStore.testCases.Login_TC1"/>
+	      	<!-- class name="com.eCommStore.TestCases.LandingLinks_TC"/> -->
+	      	<!-- class name="com.eCommStore.TestCases.Credential_TC"/> -->
+      </classes>
+   </test>
+
+</suite>

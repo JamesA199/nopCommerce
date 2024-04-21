@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "SmokeSuite1">
+	<listeners>
+		<listener class-name="com.eCommStore.utility.Reporting"></listener>
+	</listeners>
+	<test name = "eCommStore Test">
+   	<parameter name="browser" value="chrome" />
+	<groups>
+	<run>
+		<include name="Smoke"></include>
+	</run>
+	</groups>   	
+      <classes>
+	      	<class name="com.eCommStore.testCases.Login_TC1"/>
+	      	<!--class name="com.eCommStore.TestCases.addNewCustNotUseSrchBtn_TC3"/> -->
+	      	<!--class name="com.eCommStore.TestCases.addNewCustUseSrchBtn_TC4"/> -->
+	      	<class name="com.eCommStore.testCases.addNewCustandEdit_TC5"/>
+      </classes>
+   </test>
+
+</suite>
